@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.edopore.sesio4g2.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Notas"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/ePracticas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/prac"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/eAvances"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ava"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/eFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Final"
+        android:inputType="numberDecimal"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/bCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:onClick="onButtonClick"/>
+
+    <TextView
+        android:id="@+id/tTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/total"
+        android:textSize="20dp"/>
+</LinearLayout>

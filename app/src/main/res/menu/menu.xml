@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/config"
+        android:id="@+id/mConfig"/>
+    <item
+        android:title="@string/Opcion2"
+        android:id="@+id/mOp2"/>
+    <item
+        android:title="@string/Opcion3"
+        android:id="@+id/mOp3"/>
+
+</menu>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sesio4G2</string>
+    <string name="calcular">Calcular</string>
+    <string name="Notas">Notas</string>
+    <string name="prac">60%</string>
+    <string name="ava">20%</string>
+    <string name="total">Total</string>
+    <string name="Final">20%</string>
+    <string name="config">Configuración</string>
+    <string name="Opcion2">Opción 2</string>
+    <string name="Opcion3">Opción 3</string>
+    <string name="guardar">Guardar</string>
+</resources>
