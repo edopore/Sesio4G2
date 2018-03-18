@@ -39,7 +39,5 @@ public class SettingsActivity extends AppCompatActivity {
         intent.putExtra("proy",Integer.parseInt(eProyecto.getText().toString()));
         intent.putExtra("lab",Integer.parseInt(eAvance.getText().toString()));
         intent.putExtra("avance",Integer.parseInt(ePractica.getText().toString()));
-        setResult(RESULT_OK,intent);
-        finish();
     }
 }

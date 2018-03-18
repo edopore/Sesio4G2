@@ -79,7 +79,6 @@ public class MainActivity extends AppCompatActivity {
             startActivityForResult(intent, 1234);
             //finish();
         }
-
         return super.onOptionsItemSelected(item);
     }
 
